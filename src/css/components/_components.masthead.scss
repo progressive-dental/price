@@ -5,10 +5,10 @@
 .masthead {
   position: relative;
   width: 100%;
-  height: 652px;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+  height: calc(100vh - 100px);
+  // max-width: 1500px;
+  // margin-left: auto;
+  // margin-right: auto;
   overflow: hidden;
 
   @include display(flex);
@@ -32,10 +32,10 @@
   .masthead__image {
     position: relative;
     width: 100%;
-    height: 652px;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    height: inherit;
+    // max-width: 1500px;
+    // margin-left: auto;
+    // margin-right: auto;
     overflow: hidden;
 
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@
 
     .masthead__headline {
       font-size: 72px;
-      line-height: 60px;
+      line-height: 75px;
       letter-spacing: 1.28px;
       font-weight: 700;
       text-transform: uppercase;
@@ -285,4 +285,8 @@
           left: .1em;
         }
       }
+    }
+
+    .masthead--logo img {
+      margin-bottom: 20px;
     }

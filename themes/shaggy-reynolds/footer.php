@@ -12,6 +12,25 @@
 global $progressive; ?>
 
 <footer class="site-foot">
+  <section class="section site-foot__cta text-center">
+    <div class="site-foot__img-wrapper">
+      <img src="http://localhost/paioncryo/wp-content/uploads/2017/08/footer-img-1.png" alt="Paion Cryo">
+    </div>
+    <div class="container">
+      <div class="vc_row wpb_row vc_row-fluid">
+        <div class="vc_col-sm-12">
+          <div class="headline headline--center">
+            <h2 class="headline__main  headline__cta  text-light">
+              Schedule Your Next <strong>Appointment</strong>
+            </h2>
+            <a class="btn btn--primary vc_btn3-color-btn--primary" href="http://localhost/shaggy/contact-us-city-st/" title="Schedule Consultation">
+              Schedule Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3">
@@ -39,98 +58,98 @@ global $progressive; ?>
             <?php endif; ?>
             <?php if( $progressive['enable-youtube'] == 1 || $progressive['enable-google-plus'] == 1 || $progressive['enable-twitter'] == 1 ||
             $progressive['enable-instagram'] == 1 || $progressive['enable-facebook'] == 1 ) : ?>
-              <li class="contact-list__item">
-                <ul class="social-list">
-                  <?php if( $progressive['enable-facebook'] == 1 ) : ?>
-                    <li class="social-list__item"><a href="<?php echo $progressive['facebook-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--facebook"></i></a></li>
-                  <?php endif; ?>
-                  <?php if( $progressive['enable-google-plus'] == 1 ) : ?>
-                    <li class="social-list__item"><a href="<?php echo $progressive['google-plus-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--google-plus"></i></a></li>
-                  <?php endif; ?>
-                  <?php if( $progressive['enable-twitter'] == 1 ) : ?>
-                    <li class="social-list__item"><a href="<?php echo $progressive['twitter-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--twitter"></i></a></li>
-                  <?php endif; ?>
-                  <?php if( $progressive['enable-youtube'] == 1 ) : ?>
-                    <li class="social-list__item"><a href="<?php echo $progressive['youtube-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--youtube"></i></a></li>
-                  <?php endif; ?>
-                  <?php if( $progressive['enable-instagram'] == 1 ) : ?>
-                    <li class="social-list__item"><a href="<?php echo $progressive['instagram-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--instagram"></i></a></li>
-                  <?php endif; ?>
-                </ul>
-              </li>
-            <?php endif; ?>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="site-foot__column  site-foot__column--center">
-          <span class="site-foot__header">Our Dentistry</span>
-          <?php
-          wp_nav_menu(
-            array(
-              'theme_location' => 'footer-menu-1',
-              'container' => false,
-              'menu_class' => 'site-foot__list',
-              'fallback_cb' => 'default_header_nav',
-            )
-          );
-          wp_nav_menu(
-            array(
-              'theme_location' => 'footer-menu-2',
-              'container' => false,
-              'menu_class' => 'site-foot__list',
-              'fallback_cb' => 'default_header_nav',
-            )
-          );
-          wp_nav_menu(
-            array(
-              'theme_location' => 'footer-menu-3',
-              'container' => false,
-              'menu_class' => 'site-foot__list',
-              'fallback_cb' => 'default_header_nav',
-            )
-          );
-          ?>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="site-foot__column  site-foot__column--right">
-          <?php if( $progressive['enable-location-two'] == 0)  : ?>
-            <span class="site-foot__header">Get in Touch</span>
-            <a href="<?php echo get_permalink( $progressive['contact-us-link'] ); ?>" class="btn  btn--accent  btn--small">Contact Us</a>
-          <?php else : ?>
-            <span class="site-foot__header">Locations</span>
-            <ul class="contact-list">
-              <li class="contact-list__item">
-                <a href="<?php echo $progressive['location-one-link']; ?>" class="site-foot__link"><?php echo $progressive['location-one-name']; ?></a>
-              </li>
-              <li class="contact-list__item">
-                <?php if( $progressive['enable-location-two'] == 1 ) : ?>
-                  <a href="<?php echo $progressive['location-two-link']; ?>" class="site-foot__link"><?php echo $progressive['location-two-name']; ?></a>
+            <li class="contact-list__item">
+              <ul class="social-list">
+                <?php if( $progressive['enable-facebook'] == 1 ) : ?>
+                  <li class="social-list__item"><a href="<?php echo $progressive['facebook-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--facebook"></i></a></li>
                 <?php endif; ?>
-              </li>
-              <li class="contact-list__item">
-                <?php if( $progressive['enable-location-three'] == 1 ) : ?>
-                  <a href="<?php echo $progressive['location-three-link']; ?>" class="site-foot__link"><?php echo $progressive['location-three-name']; ?></a>
+                <?php if( $progressive['enable-google-plus'] == 1 ) : ?>
+                  <li class="social-list__item"><a href="<?php echo $progressive['google-plus-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--google-plus"></i></a></li>
                 <?php endif; ?>
-              </li>
-              <li class="contact-list__item">
-                <?php if( $progressive['enable-location-four'] == 1 ) : ?>
-                  <a href="<?php echo $progressive['location-four-link']; ?>" class="site-foot__link"><?php echo $progressive['location-four-name']; ?></a>
+                <?php if( $progressive['enable-twitter'] == 1 ) : ?>
+                  <li class="social-list__item"><a href="<?php echo $progressive['twitter-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--twitter"></i></a></li>
                 <?php endif; ?>
-              </li>
-            </ul>
+                <?php if( $progressive['enable-youtube'] == 1 ) : ?>
+                  <li class="social-list__item"><a href="<?php echo $progressive['youtube-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--youtube"></i></a></li>
+                <?php endif; ?>
+                <?php if( $progressive['enable-instagram'] == 1 ) : ?>
+                  <li class="social-list__item"><a href="<?php echo $progressive['instagram-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--instagram"></i></a></li>
+                <?php endif; ?>
+              </ul>
+            </li>
           <?php endif; ?>
-        </div>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="site-foot__column  site-foot__column--center">
+        <span class="site-foot__header">Our Dentistry</span>
+        <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'footer-menu-1',
+            'container' => false,
+            'menu_class' => 'site-foot__list',
+            'fallback_cb' => 'default_header_nav',
+          )
+        );
+        wp_nav_menu(
+          array(
+            'theme_location' => 'footer-menu-2',
+            'container' => false,
+            'menu_class' => 'site-foot__list',
+            'fallback_cb' => 'default_header_nav',
+          )
+        );
+        wp_nav_menu(
+          array(
+            'theme_location' => 'footer-menu-3',
+            'container' => false,
+            'menu_class' => 'site-foot__list',
+            'fallback_cb' => 'default_header_nav',
+          )
+        );
+        ?>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="site-foot__column  site-foot__column--right">
+        <?php if( $progressive['enable-location-two'] == 0)  : ?>
+          <span class="site-foot__header">Get in Touch</span>
+          <a href="<?php echo get_permalink( $progressive['contact-us-link'] ); ?>" class="btn  btn--primary  btn--small">Contact Us</a>
+        <?php else : ?>
+          <span class="site-foot__header">Locations</span>
+          <ul class="contact-list">
+            <li class="contact-list__item">
+              <a href="<?php echo $progressive['location-one-link']; ?>" class="site-foot__link"><?php echo $progressive['location-one-name']; ?></a>
+            </li>
+            <li class="contact-list__item">
+              <?php if( $progressive['enable-location-two'] == 1 ) : ?>
+                <a href="<?php echo $progressive['location-two-link']; ?>" class="site-foot__link"><?php echo $progressive['location-two-name']; ?></a>
+              <?php endif; ?>
+            </li>
+            <li class="contact-list__item">
+              <?php if( $progressive['enable-location-three'] == 1 ) : ?>
+                <a href="<?php echo $progressive['location-three-link']; ?>" class="site-foot__link"><?php echo $progressive['location-three-name']; ?></a>
+              <?php endif; ?>
+            </li>
+            <li class="contact-list__item">
+              <?php if( $progressive['enable-location-four'] == 1 ) : ?>
+                <a href="<?php echo $progressive['location-four-link']; ?>" class="site-foot__link"><?php echo $progressive['location-four-name']; ?></a>
+              <?php endif; ?>
+            </li>
+          </ul>
+        <?php endif; ?>
       </div>
     </div>
   </div>
-  <?php if( $progressive['enable-google-reviews'] == 1 ) : ?>
-    <div class="site-foot__reviews">
-      <div class="section--pattern"></div>
-      <a href="<?php echo $progressive['google-reviews-link']; ?>" target="_blank">See Our Reviews on Google</a>
-    </div>
-  <?php endif; ?>
+</div>
+<?php if( $progressive['enable-google-reviews'] == 1 ) : ?>
+  <div class="site-foot__reviews">
+    <div class="section--pattern"></div>
+    <a href="<?php echo $progressive['google-reviews-link']; ?>" target="_blank">See Our Reviews on Google</a>
+  </div>
+<?php endif; ?>
 </footer>
 </div>
 <nav id="menu" data-call-tracking-number="<?php echo localize_us_number($progressive['new-patient-number'] ); ?>">

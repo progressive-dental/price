@@ -25,7 +25,8 @@
 
   .fifty__content  {
     @include display(flex);
-    @include align-items(center);
+    flex-direction: column;
+    @include align-items(left);
     padding: 70px;
     color: $color-fifty;
     background-color: $color-fifty-bg;

@@ -1,14 +1,25 @@
 .site-foot {
-  background-color: $color-site-foot-bg;
-  padding: 65px 0 0;
+  background-color: #16a9d8;
+  // position: relative;
+  padding: 0;
   text-align: left;
+  margin-top: 600px;
   font-size: 14px;
   line-height: 19.6px;
   font-weight: 400;
-  color: $color-site-foot;
+  color: #fff;
 
-  @media(max-width: $screen-sm-max) {
+  @media(min-width: 2000px) {
+    margin-top: 900px;
+  }
+
+  @media(max-width: 1024px) {
+    margin-top: 400px;
+  }
+
+  @media(max-width: 500px) {
     text-align: center;
+    margin-top: 100px;
   }
 }
 
@@ -146,4 +157,37 @@
     font-weight: 700;
     color: $color-site-foot-header;
     text-transform: uppercase;
+  }
+
+  .site-foot__img-wrapper {
+    width: 100%;
+    position: absolute;
+        bottom: 30px;
+    text-align: center;
+    line-height: 0;
+
+    @media(max-width: 1450px) {
+      bottom: 245px;
+    }
+
+    @media(max-width: 320px) {
+      bottom: 325px;
+    }
+
+    > img {
+      width: inherit;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .site-foot__cta {
+    position: relative;
+    padding: 300px 0 0;
+
+    @media(max-width: $screen-sm-max) {
+      padding: 60px 0;
+    }
+
+
   }

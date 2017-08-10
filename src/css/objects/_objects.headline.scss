@@ -57,6 +57,11 @@
   text-transform: uppercase;
   margin-bottom: 50px;
 
+  @media (max-width: 767px) {
+    font-size: 1.4736842rem;
+    line-height: 39.2px;
+  }
+
   .section--cta & {
     font-weight: 300;
     font-size: 42px;
@@ -107,7 +112,7 @@
   }
 }
 
-.headline__underline-white {
+.headline__underline--white {
     &:after {
       background: $color-white;
     }

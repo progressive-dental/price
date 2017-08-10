@@ -98,9 +98,9 @@
     .slick-dots {
       li {
         button {
-          background: $color-gray;
+          background: $color-lighter-primary;
           &:hover, &:focus {
-              background: $color-white;
+              background: $color-light-gray;
           }
         }
         &.slick-active button {

@@ -61,7 +61,10 @@
              color: $color-btn;
   transition: $global-transition;
 
-
+  @include hocus() {
+    background-color: $color-btn-background-hover--primary;
+    border-color: $color-btn-border-hover--primary;
+  }
   /*.t-red & {
     background-color: $color-theme-red; // todo: introduce themes
   } */
@@ -108,7 +111,7 @@
 .btn--accent {
   background-color: $color-btn-background--accent;
       border-color: $color-btn-border--accent;
-             color: $color-btn--accent;
+             color: $color-btn--accent !important;
   transition: all .3s;
 
   @include hocus() {
@@ -143,6 +146,6 @@
 }
 
 .btn--view-more {
-  color: $color-btn-view-more;
+  // color: $color-btn-view-more;
   margin-top: 70px;
 }

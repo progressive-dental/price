@@ -225,7 +225,7 @@
 
   WebFont.load({
     google: {
-      families: [ 'Lato:300,400,700,900' ]
+      families: [ 'Julius+Sans+One', 'Open+Sans:300,600' ]
     }
   });
 
