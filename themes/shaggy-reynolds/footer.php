@@ -14,7 +14,7 @@ global $progressive; ?>
 <footer class="site-foot">
   <section class="section site-foot__cta text-center">
     <div class="site-foot__img-wrapper">
-      <img src="/wp-content/uploads/2017/08/footer-img-opt.png" alt="Paion Cryo">
+      <img src="http://localhost/paioncryo/wp-content/uploads/2017/08/footer-img-1.png" alt="Paion Cryo">
     </div>
     <div class="container">
       <div class="vc_row wpb_row vc_row-fluid">
