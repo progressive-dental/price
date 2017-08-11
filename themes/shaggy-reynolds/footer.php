@@ -14,7 +14,7 @@ global $progressive; ?>
 <footer class="site-foot">
   <section class="section site-foot__cta text-center">
     <div class="site-foot__img-wrapper">
-      <img src="http://localhost/paioncryo/wp-content/uploads/2017/08/footer-img-1.png" alt="Paion Cryo">
+      <img src="/wp-content/uploads/2017/08/footer-img-opt.png" alt="Paion Cryo">
     </div>
     <div class="container">
       <div class="vc_row wpb_row vc_row-fluid">
@@ -23,7 +23,7 @@ global $progressive; ?>
             <h2 class="headline__main  headline__cta  text-light">
               Schedule Your Next <strong>Appointment</strong>
             </h2>
-            <a class="btn btn--primary vc_btn3-color-btn--primary" href="http://localhost/shaggy/contact-us-city-st/" title="Schedule Consultation">
+            <a class="btn btn--primary vc_btn3-color-btn--primary" href="/contact-us" title="Schedule Consultation">
               Schedule Consultation
             </a>
           </div>
