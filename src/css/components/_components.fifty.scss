@@ -8,6 +8,13 @@
   border-bottom: 10px solid $color-fifty-border;
   clear: both;
   overflow: hidden;
+
+  @media(max-width: $screen-md-max) {
+    + .fifty {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
 }
 
   .fifty__object,

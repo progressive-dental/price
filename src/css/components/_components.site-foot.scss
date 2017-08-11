@@ -6,7 +6,7 @@
   margin-top: 600px;
   font-size: 14px;
   line-height: 19.6px;
-  font-weight: 400;
+  font-weight: 700;
   color: #fff;
 
   @media(min-width: 2000px) {
@@ -28,10 +28,7 @@
     padding: 19px 0;
     position: relative;
     text-align: center;
-
-    .section--pattern {
-      background-color: $color-site-foot-reviews-bg;
-    }
+    background-color: $color-site-foot-reviews-bg;
 
     a {
       color: $color-site-foot-reviews;
@@ -111,11 +108,17 @@
     }
   }
 
+  .site-foot__header--logo {
+    border: none;
+    img {
+      max-height: 100px;
+    }
+  }
 
   .site-foot__link {
     color: $color-site-foot-link;
     transition: .3s ease-in-out;
-    font-weight: 400;
+    font-weight: 700;
 
       &:hover {
         text-decoration: none;

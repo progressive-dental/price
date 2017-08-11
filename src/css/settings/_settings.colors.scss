@@ -85,6 +85,8 @@ $color-btn-ghost-bg-hover--primary:     $color-tertiary;
 $color-btn-outline--primary:            $color-primary;
 $color-btn-outline--secondary:          $color-secondary;
 $color-btn-outline--accent:             $color-accent;
+$color-btn-outline--light:              $color-white;
+$color-btn-border-outline--light:      $color-white;
 $color-btn-view-more:                   $color-primary;
 
 $color-play-button:                     $color-white;
@@ -163,7 +165,7 @@ $color-site-foot-link:                  $color-white;
 $color-site-foot-link-hover:            $color-light-secondary;
 $color-site-foot-header:                $color-white;
 $color-site-foot-header-border:         lighten($color-site-foot-bg, 25%);
-$color-site-foot-reviews-bg:            darken($color-site-foot-bg, 2%);
+$color-site-foot-reviews-bg:            $color-dark-accent;
 $color-site-foot-reviews:               $color-white;
 $color-site-foot-reviews-hover:         $color-light-secondary;
 
