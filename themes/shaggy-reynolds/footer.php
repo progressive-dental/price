@@ -110,7 +110,7 @@ global $progressive; ?>
                   <li class="social-list__item"><a href="<?php echo $progressive['youtube-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--youtube"></i></a></li>
                 <?php endif; ?>
                 <?php if( $progressive['enable-instagram'] == 1 ) : ?>
-                  <li class="social-list__item"><a href="<?php echo $progressive['instagram-link']; ?>" class="site-foot__link" target="_blank"><i class="icon  icon--instagram"></i></a></li>
+                  <li class="social-list__item"><a href="<?php echo $progressive['instagram-link']; ?>" class="site-foot__link" target="_blank"><i class="fa fa-instagram"></i></a></li>
                 <?php endif; ?>
               </ul>
             </li>
