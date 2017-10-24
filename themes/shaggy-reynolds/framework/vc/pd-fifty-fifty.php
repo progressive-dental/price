@@ -196,7 +196,7 @@ function pd_fifty_fifty_func( $atts, $content = null ) {
           <?php endif; ?>
         </div>
         <div class="<?php echo $classes; ?>"  data-mh="fifty">
-          <?php echo ( $content != null ? wpautop( $content ) : '' ); ?>
+          <?php echo ( $content != null ? $content : '' ); ?>
         </div>
       <?php endif; ?>
     </div>
