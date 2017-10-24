@@ -172,7 +172,7 @@ function pd_fifty_fifty_func( $atts, $content = null ) {
     <div class="fifty">
       <?php if( "true" == $reverse ) : ?>
         <div class="<?php echo $classes; ?>"  data-mh="fifty">
-          <?php echo ( $content != null ? wpautop( $content ) : '' ); ?>
+          <?php echo ( $content != null ? $content : '' ); ?>
         </div>
         <div class="fifty__object" data-mh="fifty">
           <?php
