@@ -89,22 +89,11 @@
           }
   }
 
-  .card-white {
-    .card__body {
-      color: $color-tertiary;
-      background-color: $color-white;
-    }
-
+  .card--primary {
     .slick-dots {
       li {
-        button {
-          background: $color-lighter-primary;
-          &:hover, &:focus {
-              background: $color-light-gray;
-          }
-        }
         &.slick-active button {
-            background: $color-white;
+            background: $color-primary;
         }
       }
     }

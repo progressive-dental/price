@@ -18,6 +18,7 @@
   .fifty__content {
     width: 50%;
     min-height: 397px;
+    max-height: 397px;
     display: inline-block;
     float: left;
 
@@ -30,6 +31,8 @@
   .fifty__content  {
     @include display(flex);
     @include align-items(center);
+    @include flex-direction(column);
+    @include justify-content(center);
     padding: 70px;
     color: $color-fifty;
     background-color: $color-fifty-bg;

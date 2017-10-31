@@ -119,6 +119,18 @@
   }
 }
 
+.outline-image--primary {
+
+  .outline-image {
+    @media(min-width: 992px) {
+
+      &::before {
+        border-color: $color-primary;
+      }
+    }
+  }
+}
+
 .outline-image img {
   position: relative;
 }
