@@ -220,10 +220,11 @@ $color-transblock-header-bg:            transparentize($color-primary, .3);
 $color-trabsblock-list-item-border:     #979797;
 
 // Video Box
-$color-video-box-caption-bg:            $color-accent;
-$color-video-box-play-bg:               transparentize($color-primary, .3);
+$color-video-box-caption:               $color-white;
+$color-video-box-caption-bg:            $color-primary;
+$color-video-box-play-bg:               transparentize($color-accent, .3);
 $color-video-box-play:                  $color-white;
-$color-video-box-play-bg-hover:         $color-primary;
+$color-video-box-play-bg-hover:         $color-accent;
 $color-video-play:                      $color-white;
 $color-video-play-bg:                   rgba(15,26,68,.80);
 $color-video-play-bg-hover:             rgba(15,26,68,1);

@@ -103,11 +103,11 @@
     margin-bottom: 30px;
   }
 
-  @media(min-width: 992px) {
+  @media(min-width: 601px) {
     margin-right: 38px;
 
     &::before {
-      border: 5px solid $color-outline-image-border;
+      border: 3px solid $color-outline-image-border;
       content: '';
       height: 100%;
       width: calc(100% - 68px);

@@ -134,11 +134,12 @@
 
 .btn--outline-accent {
   background-color: transparent;
-  color: $color-white;
+  color: $color-primary;
   border-color: $color-btn-outline--accent;
   @include hocus {
     border-color: darken($color-btn-outline--accent, 9%);
     background-color: darken($color-btn-outline--accent, 9%);
+    color: $color-white;
   }
 }
 
