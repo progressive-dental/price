@@ -97,12 +97,13 @@
 }
 
 .outline-image {
+  text-align: center;
 
   @media(max-width: $screen-sm-max) {
     margin-bottom: 30px;
   }
 
-  @media(min-width: $screen-sm-min) {
+  @media(min-width: 992px) {
     margin-right: 38px;
 
     &::before {

@@ -6,6 +6,7 @@
   margin-bottom: 70px;
   margin-left: auto;
   margin-right: auto;
+  color: $color-headlines;
 
 
   @media (max-width: $screen-sm-max) {
@@ -55,7 +56,7 @@
 .headline__main {
   display: block;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 
   @media (max-width: 767px) {
     font-size: 1.4736842rem;
@@ -102,14 +103,20 @@
     position: absolute;
     bottom: -20px;
     left: 0;
-    width: 100px;
-    height: 4px;
+    width: 120px;
+    height: 3px;
     background: $color-headlines-underline;
     .headline--center & {
       left: 50%;
     transform: translateX(-50%);
     }
   }
+}
+
+.headline__underline--primary {
+    &:after {
+      background: $color-primary;
+    }
 }
 
 .headline__underline--white {

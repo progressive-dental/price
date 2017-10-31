@@ -1,20 +1,17 @@
 .fifty {
   width: 100%;
+  // -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  //   -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  //   -ms-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  //   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
   @media(max-width: $screen-md-max) {
     margin-left: auto;
     margin-right: auto;
     max-width: 561px;
   }
-  border-bottom: 10px solid $color-fifty-border;
+  border-bottom: 5px solid $color-fifty-border;
   clear: both;
   overflow: hidden;
-
-  @media(max-width: $screen-md-max) {
-    + .fifty {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-  }
 }
 
   .fifty__object,
@@ -32,8 +29,7 @@
 
   .fifty__content  {
     @include display(flex);
-    flex-direction: column;
-    @include align-items(left);
+    @include align-items(center);
     padding: 70px;
     color: $color-fifty;
     background-color: $color-fifty-bg;

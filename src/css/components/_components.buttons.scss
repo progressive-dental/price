@@ -57,7 +57,7 @@
 
 .btn--primary {
   background-color: $color-btn-background;
-      border-color: $color-btn-background;
+      border-color: $color-btn-background-border;
              color: $color-btn;
   transition: $global-transition;
 
@@ -134,9 +134,11 @@
 
 .btn--outline-accent {
   background-color: transparent;
+  color: $color-white;
   border-color: $color-btn-outline--accent;
   @include hocus {
     border-color: darken($color-btn-outline--accent, 9%);
+    background-color: darken($color-btn-outline--accent, 9%);
   }
 }
 
@@ -160,5 +162,5 @@
 
 .btn--view-more {
   // color: $color-btn-view-more;
-  margin-top: 70px;
+  margin-top: 50px;
 }
