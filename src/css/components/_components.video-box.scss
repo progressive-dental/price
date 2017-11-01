@@ -32,6 +32,7 @@
       margin-bottom: 0;
     }
   }
+
   .video-box__caption {
     position: absolute;
     left: 0;
@@ -114,5 +115,12 @@
       background-color: $color-video-play-bg-hover;
       text-decoration: none;
       outline: none;
+    }
+  }
+
+  .box--accent {
+    .video-box__caption {
+      background-color: $color-accent;
+      color: $color-primary;
     }
   }

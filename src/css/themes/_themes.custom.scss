@@ -100,10 +100,10 @@
   text-align: center;
 
   @media(max-width: $screen-sm-max) {
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
 
-  @media(min-width: 601px) {
+  @media(min-width: $screen-md-min) {
     margin-right: 38px;
 
     &::before {
