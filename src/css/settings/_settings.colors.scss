@@ -18,22 +18,22 @@ $color-dark-gray: darken($color-gray, 15%);           /* [1] */
 $color-light-gray: lighten($color-gray, 20%);         /* [1] */
 $color-lighter-gray: lighten($color-gray, 28%);       /* [1] */
 
-$color-accent: #C8AE75;                               /* [2] */
+$color-accent: #727A35;                               /* [2] */
 $color-dark-accent: darken($color-accent, 6%);        /* [2] */
 $color-darker-accent: darken($color-accent,20%);      /* [2] */
 $color-light-accent: lighten($color-accent, 7%);      /* [2] */
 
-$color-primary: #181914;                              /* [2] */
+$color-primary: #174A7C;                              /* [2] */
 $color-dark-primary: darken($color-primary, 2%);      /* [2] */
 $color-light-primary: lighten($color-primary, 2%);   /* [2] */
 $color-lighter-primary: lighten($color-primary, 50%); /* [2] */
 
 $color-secondary: $color-white;                            /* [2] */
-$color-dark-secondary: darken($color-secondary, 2%);  /* [2] */
-$color-darker-secondary: darken($color-secondary, 5%);/* [2] */
+$color-dark-secondary: darken($color-secondary, 5%);  /* [2] */
+$color-darker-secondary: darken($color-secondary, 8%);/* [2] */
 $color-light-secondary: lighten($color-secondary, 4%);/* [2] */
 
-$color-tertiary: #C8AE75;                             /* [2] */
+$color-tertiary: #727A35;                             /* [2] */
 $color-dark-tertiary: darken($color-tertiary, 30%);   /* [2] */
 $color-transparent-tertiary: transparentize($color-tertiary, .4);                             /* [2] */
 $color-tint: #EEEEEE;                                 /* [2] */
@@ -41,7 +41,6 @@ $color-highlight: #DB7D3B;                            /* [2] */
 $color-custom-one: $color-light-primary;              /* [2] */
 $color-custom-two: #2D3F55;                           /* [2] */
 $color-custom-three: #14204B;                         /* [2] */
-$color-test: #aaaaaa;
 
 $color-text: $color-light-primary;                                 /* [3] */
 $color-text-hover: #ccc;                              /* [3] */
@@ -99,7 +98,7 @@ $color-accordion-title-bg-color:        $color-darker-secondary;
 $color-accordion-title-text:            $color-custom-two;
 $color-accordion-title-active-bg-color: $color-primary;
 $color-accordion-title-active-text:     $color-white;
-$color-accordion-content-bg-color:      $color-light-secondary;
+$color-accordion-content-bg-color:      $color-dark-secondary;
 $color-accordion-content-text:          $color-custom-two;
 
 // Block list
@@ -122,8 +121,8 @@ $color-fifty:                           $color-white;
 $color-fifty-bg:                        $color-primary;
 $color-fifty-border:                    $color-accent;
 $color-fifty-play-button:               $color-play-button;
-$color-fifty-play-button-bg:            transparentize($color-tertiary, .3);
-$color-fifty-play-button-bg-hover:      $color-tertiary;
+$color-fifty-play-button-bg:            transparentize($color-accent, .3);
+$color-fifty-play-button-bg-hover:      $color-accent;
 
 // Widgets
 $color-widget:                          $color-white;
@@ -134,7 +133,7 @@ $color-widget-bg:                       $color-light-primary;
 $color-implant:                         $color-tertiary;
 
 // Masthead
-$color-masthead-background:             transparentize($color-accent, .6);
+$color-masthead-background:             transparentize($color-primary, .8);
 $color-masthead:                        $color-white;
 $color-masthead-banner:                 #14204B;
 $color-masthead-banner-link:            #EF5D60;
@@ -168,7 +167,7 @@ $color-site-foot-link:                  $color-secondary;
 $color-site-foot-link-hover:            $color-darker-secondary;
 $color-site-foot-header:                $color-white;
 $color-site-foot-header-border:         lighten($color-site-foot-bg, 25%);
-$color-site-foot-reviews-bg:            $color-light-primary;
+$color-site-foot-reviews-bg:            $color-dark-primary;
 $color-site-foot-reviews:               $color-white;
 $color-site-foot-reviews-hover:         $color-darker-secondary;
 

@@ -1,53 +1,55 @@
 .site-foot {
   background-color: $color-site-foot-bg;
   position: relative;
-  margin-top: 150px;
+  // margin-top: 150px;
   padding: 0;
   text-align: left;
   font-size: 14px;
   line-height: 19.6px;
   font-weight: 700;
   color: #fff;
+  border-top-left-radius: 100% 30%;
+  border-top-right-radius: 100% 30%;
 
-  background-image: url("/wp-content/uploads/2017/10/footer-background-1.jpg");
+  background-image: url("/wp-content/uploads/2017/11/footer-background-3.png");
 
-  &:before {
-    content: '';
-  position: absolute;
-  left: 0;
-  top: -100px;
-  overflow: visible;
-  width: 100%;
-  height: 100px;
-  background: #fff;
-  z-index: 11;
-  -webkit-transform: skewY(3deg);
-  -moz-transform: skewY(3deg);
-  -ms-transform: skewY(3deg);
-  -o-transform: skewY(3deg);
-  transform: skewY(3deg);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: initial;
-}
-
-&:after {
-  content: '';
-position: absolute;
-left: 0;
-top: -100px;
-overflow: visible;
-width: 100%;
-height: 100px;
-background: #fff;
-z-index: 11;
--webkit-transform: skewY(-3deg);
--moz-transform: skewY(-3deg);
--ms-transform: skewY(-3deg);
--o-transform: skewY(-3deg);
-transform: skewY(-3deg);
--webkit-backface-visibility: hidden;
-backface-visibility: initial;
-}
+//   &:before {
+//     content: '';
+//   position: absolute;
+//   left: 0;
+//   top: -100px;
+//   overflow: visible;
+//   width: 100%;
+//   height: 100px;
+//   background: #fff;
+//   z-index: 11;
+//   -webkit-transform: skewY(3deg);
+//   -moz-transform: skewY(3deg);
+//   -ms-transform: skewY(3deg);
+//   -o-transform: skewY(3deg);
+//   transform: skewY(3deg);
+//   -webkit-backface-visibility: hidden;
+//   backface-visibility: initial;
+// }
+//
+// &:after {
+//   content: '';
+// position: absolute;
+// left: 0;
+// top: -100px;
+// overflow: visible;
+// width: 100%;
+// height: 100px;
+// background: #fff;
+// z-index: 11;
+// -webkit-transform: skewY(-3deg);
+// -moz-transform: skewY(-3deg);
+// -ms-transform: skewY(-3deg);
+// -o-transform: skewY(-3deg);
+// transform: skewY(-3deg);
+// -webkit-backface-visibility: hidden;
+// backface-visibility: initial;
+// }
 }
 
   .site-foot__reviews {
@@ -221,7 +223,7 @@ backface-visibility: initial;
 
   .site-foot__cta {
     position: relative;
-    padding: 150px 0 100px;
+    padding: 100px 0 70px;
 
     @media(max-width: $screen-sm-max) {
       padding: 60px 0;
