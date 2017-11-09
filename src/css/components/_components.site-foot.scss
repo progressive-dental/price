@@ -11,6 +11,11 @@
   border-top-left-radius: 100% 30%;
   border-top-right-radius: 100% 30%;
 
+  @media(max-width: $screen-sm-max) {
+    border-top-left-radius: 120% 15%;
+    border-top-right-radius: 120% 15%;
+  }
+
   background-image: url("/wp-content/uploads/2017/11/footer-background-3.png");
 
 //   &:before {
