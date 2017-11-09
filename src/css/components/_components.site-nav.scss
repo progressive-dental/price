@@ -188,16 +188,16 @@
   .site-nav__dropdown & {
     .site-nav--dropdown & {
       .site-nav__item:hover & {
-        font-size: 17px;
+        font-size: 13px;
         // color: $color-site-nav-sub-sub;
-        text-transform: capitalize;
-        font-weight: normal;
+        // text-transform: capitalize;
+        // font-weight: normal;
         line-height: 18px;
         // font-family: "proxima nova";
 
-        @media(max-width: 1331px) {
-          font-size: 16px;
-        }
+        // @media(max-width: 1331px) {
+        //   font-size: 16px;
+        // }
 
         // &:hover {
         //   color: $color-site-nav-sub-sub-hover;
@@ -358,16 +358,16 @@
       width: 100%;
     }
 
-    // &:after {
-    //   content: "";
-    //   background: $color-site-nav-sub-sub-border;
-    //   position: absolute;
-    //   bottom: 50px;
-    //   opacity: .5;
-    //   left: 0;
-    //   height: 86%;
-    //   width: 1px;
-    // }
+    &:after {
+      content: "";
+      background: $color-site-nav-sub-sub-border;
+      position: absolute;
+      bottom: 50px;
+      opacity: .5;
+      left: 0;
+      height: 86%;
+      width: 1px;
+    }
 
   }
 
