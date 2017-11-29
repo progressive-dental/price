@@ -18,7 +18,7 @@ $color-dark-gray: darken($color-gray, 15%);           /* [1] */
 $color-light-gray: lighten($color-gray, 20%);         /* [1] */
 $color-lighter-gray: lighten($color-gray, 28%);       /* [1] */
 
-$color-accent: #727A35;                               /* [2] */
+$color-accent: #fe9700;                               /* [2] */
 $color-dark-accent: darken($color-accent, 6%);        /* [2] */
 $color-darker-accent: darken($color-accent,20%);      /* [2] */
 $color-light-accent: lighten($color-accent, 7%);      /* [2] */
@@ -113,7 +113,7 @@ $color-card-dot:                        $color-darker-secondary;
 $color-card-dot-active:                 $color-accent;
 
 // Counter
-$color-counter:                         $color-primary;
+$color-counter:                         $color-white;
 $color-counter-bg:                      transparent;
 
 // Fifty Fifty Module
