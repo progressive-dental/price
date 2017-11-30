@@ -7,7 +7,7 @@
   // background-repeat: repeat;
   // background-blend-mode: color-burn;
   address {
-    color: $color-white;
+    color: $color-primary;
   }
 
   &:nth-child(2) {
@@ -16,7 +16,7 @@
   }
 
   &:only-child {
-    color: $color-white;
+    color: $color-primary;
     // margin-top: 110px;
     // background-image: url(../images/patterns/cream-pixels/cream-pixels.png);
     // background-repeat: repeat;
