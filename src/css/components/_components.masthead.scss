@@ -134,14 +134,15 @@
 }
 .section__video-wrap video {
   position: absolute;
-  bottom: 0;
+  // bottom: 0;
   height: auto;
   // min-height: 100%;
   min-width: 100%;
   overflow: hidden;
-  right: 0;
+  // right: 0;
+  left: 0;
   width: auto;
-  // top: 0;
+  top: 0;
   // max-width: 1500px;
   opacity: .8;
 }
