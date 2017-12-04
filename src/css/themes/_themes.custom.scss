@@ -354,18 +354,18 @@
   transform: scaleY(1);
   float: left;
   position: absolute;
-  right: -34px;
+  right: -28px;
   top: 0px;
 }
 
 .implant__note.show-cont .implant__indicator .plus-icon:after {
-  width: 82px;
+  width: 100px;
 }
 .implant__note--crown.implant__note.show-cont .implant__indicator .plus-icon:after {
-  width: 152px;
+  width: 111px;
 }
 .implant__note--abutment.implant__note.show-cont .implant__indicator .plus-icon:after {
-  width: 151px;
+  width: 134px;
 }
 .implant__note--post .implant__note-name {
   padding-top: 75px;
@@ -381,7 +381,7 @@
   top: 0;
 }
 .implant__note--post.show-cont .implant__note-name {
-  right: 25px;
+  right: 6px;
   top: 22px;
   transform-origin: top;
   -moz-transform-origin: top;
@@ -402,7 +402,7 @@
 }
 
 .implant__note--abutment.show-cont .implant__note-name {
-  left: 35px;
+  left: 52px;
   right: initial;
 }
 header .container .pull-right .tab-bottom>li  {
