@@ -557,3 +557,9 @@ header li a {
 .scroll-width {
   width: 50px;
 }
+
+@media(max-width: 768px) {
+  .scroll-icon {
+    display: none;
+  }
+}
