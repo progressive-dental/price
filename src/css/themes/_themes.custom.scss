@@ -97,16 +97,22 @@
 }
 
 .outline-image {
+  text-align: center;
 
-  @media(max-width: $screen-sm-max) {
-    margin-bottom: 30px;
+  img {
+    border-radius: 25px;
   }
 
-  @media(min-width: $screen-sm-min) {
+  @media(max-width: $screen-sm-max) {
+    margin: 30px 0;
+  }
+
+  @media(min-width: $screen-md-min) {
     margin-right: 38px;
 
     &::before {
-      border: 5px solid $color-outline-image-border;
+      border: 3px solid $color-outline-image-border;
+      border-radius: 25px;
       content: '';
       height: 100%;
       width: calc(100% - 68px);
@@ -114,6 +120,18 @@
       position: absolute;
       top: 38px;
       left: 53px;
+    }
+  }
+}
+
+.outline-image--primary {
+
+  .outline-image {
+    @media(min-width: 992px) {
+
+      &::before {
+        border-color: $color-primary;
+      }
     }
   }
 }
@@ -134,7 +152,7 @@
 }
 
 .implant__note {
-  color: $color-implant;
+  color: $color-white;
   display: inline-block;
   height: 115px;
   position: absolute;
@@ -336,13 +354,8 @@
   transform: scaleY(1);
   float: left;
   position: absolute;
-  right: 7px;
-  top: 0px;
-
-  @media(max-width:992px ) {
   right: -28px;
-   }
-
+  top: 0px;
 }
 
 .implant__note.show-cont .implant__indicator .plus-icon:after {
