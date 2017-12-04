@@ -362,7 +362,10 @@
   width: 100px;
 }
 .implant__note--crown.implant__note.show-cont .implant__indicator .plus-icon:after {
-  width: 111px;
+  width: 146px;
+  @media(max-width: 992px) {
+    width: 111px;
+  }
 }
 .implant__note--abutment.implant__note.show-cont .implant__indicator .plus-icon:after {
   width: 134px;
