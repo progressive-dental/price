@@ -1,6 +1,6 @@
 .mm-menu {
   background: $color-site-mobile-nav-bg;
-  color: $color-white;
+  // color: $color-white;
   border-color: $color-site-mobile-nav-border;
 
   a,
@@ -14,9 +14,9 @@
     color: $color-site-mobile-nav-num;
   }
 
-  .mm-listview li:after, .mm-listview > li .mm-next:after {
-    border-color: $color-dark-gray;
-  }
+  // .mm-listview li:after, .mm-listview > li .mm-next:after {
+  //   border-color: $color-dark-gray;
+  // }
 
   .mm-btn:after,
   .mm-btn:before {
