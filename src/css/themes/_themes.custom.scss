@@ -556,8 +556,4 @@ header li a {
 
 .scroll-width {
   width: 50px;
-
-  @media(min-width: $screen-md-min) {
-    display: none;
-  }
 }
